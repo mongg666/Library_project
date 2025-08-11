@@ -22,32 +22,32 @@
 git clone https://github.com/username/library_project.git
 cd library_project
 
-### 2. Создайте виртуальное окружение
+2. Создайте виртуальное окружение
 ```bash
 python -m venv venv
 
-# Активация
+Активация
 Windows: venv\Scripts\activate
 Linux / Mac: source venv/bin/activate
 
-### 3. Установите зависимости
+3. Установите зависимости
 ```bash
 pip install -r requirements.txt
 
-### 4. Примените миграции
+4. Примените миграции
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 
-### 5. Создайте суперпользователя
+5. Создайте суперпользователя
 ```bash
 python manage.py createsuperuser
 
-### 6. Запустите сервер
+6. Запустите сервер
 ```bash
 python manage.py runserver
 
-### 7. Откройте в браузере
+7. Откройте в браузере
 
 Главная страница: http://127.0.0.1:8000/
 
